@@ -1,0 +1,22 @@
+{
+  "name": "SwiftHashTags",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftHashTags.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hcasc/SwiftHashTags",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hcasc": "anuradhtuck@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hcasc/SwiftHashTags.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftHashTags/Classes/**/*"
+}

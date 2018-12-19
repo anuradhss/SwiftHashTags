@@ -1,0 +1,6 @@
+framework module SwiftHashTags {
+  umbrella header "SwiftHashTags-umbrella.h"
+
+  export *
+  module * { export * }
+}

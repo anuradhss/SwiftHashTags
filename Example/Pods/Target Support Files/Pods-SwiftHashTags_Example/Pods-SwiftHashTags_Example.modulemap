@@ -1,0 +1,6 @@
+framework module Pods_SwiftHashTags_Example {
+  umbrella header "Pods-SwiftHashTags_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

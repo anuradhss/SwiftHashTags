@@ -1,0 +1,6 @@
+framework module Pods_SwiftHashTags_Tests {
+  umbrella header "Pods-SwiftHashTags_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

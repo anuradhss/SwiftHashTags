@@ -1,0 +1,16 @@
+PODS:
+  - SwiftHashTags (0.1.0)
+
+DEPENDENCIES:
+  - SwiftHashTags (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftHashTags:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftHashTags: 40f3cdcc8f23592dee48e97b49432e32a867ae78
+
+PODFILE CHECKSUM: e4a4d419391d1166302c201d1f0a7b2e761880cd
+
+COCOAPODS: 1.5.2
