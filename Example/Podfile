@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftHashTags_Example' do
+  pod 'SwiftHashTags', :path => '../'
+
+  target 'SwiftHashTags_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
