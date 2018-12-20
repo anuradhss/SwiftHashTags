@@ -28,6 +28,11 @@ pod 'SwiftHashTags','~>0.1.1'
 
 ## How to use
 
+### import the library
+```ruby
+import SwiftHashTags
+```
+
 ### Create SwiftHashTag View and Add Tags.
 ```ruby
 //MARK: Adding hashtags to SwiftHashTags
