@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftHashTags.svg?style=flat)](https://cocoapods.org/pods/SwiftHashTags)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftHashTags.svg?style=flat)](https://cocoapods.org/pods/SwiftHashTags)
 
+[![Language](https://developer.apple.com/assets/elements/icons/swift/swift-64x64_2x.png)](https://developer.apple.com/swift/)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
