@@ -10,7 +10,6 @@
 		201A8F28EE3E75430C3CB1C722FDEC7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		237953DB55210DF873749FBAA71F0398 /* Pods-SwiftHashTags_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BF87EBFBBC9FCC74E1704091EBF62F /* Pods-SwiftHashTags_Example-dummy.m */; };
 		5E11D7754F208F17372B7D43ED0C6461 /* Pods-SwiftHashTags_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 239E15DE4858A913645AE8B678560B52 /* Pods-SwiftHashTags_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		694653D973D8CFD715A2738AF312D766 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3183A67577259874CAAE366007B1E538 /* ReplaceMe.swift */; };
 		74DAF53016B553F216DA831F65D12B2E /* SwiftHashTagsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3759DB9D6E8FD7F936A4B8C73F8D68F0 /* SwiftHashTagsExtensions.swift */; };
 		77F8F770D220979F15180ED36BCFB367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		810870B28C51D705AF4F3A162B4FC5C6 /* Pods-SwiftHashTags_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91842BB791672019BD555304832F74 /* Pods-SwiftHashTags_Tests-dummy.m */; };
@@ -40,12 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ACD7ABA50065F8511DC2F8A4FEB6545 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0ACD7ABA50065F8511DC2F8A4FEB6545 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		132659829BB254225B58DDA8C3FE2337 /* Pods-SwiftHashTags_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftHashTags_Example-frameworks.sh"; sourceTree = "<group>"; };
 		14E056975B3B32F7D6C48B88846D6493 /* Pods-SwiftHashTags_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftHashTags_Example-resources.sh"; sourceTree = "<group>"; };
 		1ABFEC6174C56DB892B13495B1A7D985 /* Pods-SwiftHashTags_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftHashTags_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		239E15DE4858A913645AE8B678560B52 /* Pods-SwiftHashTags_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftHashTags_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3183A67577259874CAAE366007B1E538 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftHashTags/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3759DB9D6E8FD7F936A4B8C73F8D68F0 /* SwiftHashTagsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHashTagsExtensions.swift; path = SwiftHashTags/Classes/SwiftHashTagsExtensions.swift; sourceTree = "<group>"; };
 		3E2A3C94C08C6EE992258DC10BDC8F05 /* SwiftHashTags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHashTags.swift; path = SwiftHashTags/Classes/SwiftHashTags.swift; sourceTree = "<group>"; };
 		423B6BE0FBB398F4AF59BE0D1B38B7C3 /* Pods-SwiftHashTags_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftHashTags_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -58,12 +56,12 @@
 		62472B0F0223C4E3ECE0982272801CF6 /* SwiftHashTags.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftHashTags.modulemap; sourceTree = "<group>"; };
 		6A6BA0B16FFFCA73A5CAE24024EEBD75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		714AF41C0C453E9B9EFF2E1825DC00E7 /* Pods-SwiftHashTags_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftHashTags_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7CFD146758E1572E46052C013B9F7EAE /* Pods_SwiftHashTags_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftHashTags_Example.framework; path = "Pods-SwiftHashTags_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFD146758E1572E46052C013B9F7EAE /* Pods_SwiftHashTags_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHashTags_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BF033B5DD77FEE251A6EB6DB9FD556 /* SwiftHashTags-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHashTags-umbrella.h"; sourceTree = "<group>"; };
 		8BFB025A7654DF8226BE41E2EC7AD5AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F91842BB791672019BD555304832F74 /* Pods-SwiftHashTags_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftHashTags_Tests-dummy.m"; sourceTree = "<group>"; };
-		92E91D4E9B5AFEAC92F4710D35C68C11 /* SwiftHashTags.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftHashTags.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92E91D4E9B5AFEAC92F4710D35C68C11 /* SwiftHashTags.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SwiftHashTags.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94BF87EBFBBC9FCC74E1704091EBF62F /* Pods-SwiftHashTags_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftHashTags_Example-dummy.m"; sourceTree = "<group>"; };
 		97850507FFCCF31F3BFED5A9CA789335 /* Pods-SwiftHashTags_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftHashTags_Example.modulemap"; sourceTree = "<group>"; };
 		9882B3DDD104FF5570286EC68EA7E101 /* Pods-SwiftHashTags_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftHashTags_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,12 +69,12 @@
 		A754D6B86543EBF52CB3427EE87E68C6 /* Pods-SwiftHashTags_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftHashTags_Example-umbrella.h"; sourceTree = "<group>"; };
 		A9589BFA7166916235B33E84032A3B89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA0352F83FD5A30F5AFDE6751C263D95 /* Pods-SwiftHashTags_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftHashTags_Tests-resources.sh"; sourceTree = "<group>"; };
-		BDB653A5342A876571C58F3F0EFD595A /* Pods_SwiftHashTags_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftHashTags_Tests.framework; path = "Pods-SwiftHashTags_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB653A5342A876571C58F3F0EFD595A /* Pods_SwiftHashTags_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftHashTags_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01F4A99A60E64753A3D24282753D0D0 /* SwiftHasthTagsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHasthTagsView.swift; path = SwiftHashTags/Classes/SwiftHasthTagsView.swift; sourceTree = "<group>"; };
 		CBFF1A54533BC3F0801DF5240B9B2CC9 /* SwiftHashTags-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHashTags-dummy.m"; sourceTree = "<group>"; };
 		D239309BEAF78C9F57D65EBB3F8F8794 /* Pods-SwiftHashTags_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftHashTags_Tests.modulemap"; sourceTree = "<group>"; };
-		D7D5F1084363BE71A258CF93FCBF3F0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D965DE9E9CEA62EDA0F0EFCE0AFE071B /* SwiftHashTags.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftHashTags.framework; path = SwiftHashTags.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D5F1084363BE71A258CF93FCBF3F0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D965DE9E9CEA62EDA0F0EFCE0AFE071B /* SwiftHashTags.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHashTags.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3026DCC0370B2E64F36B00967696431 /* Pods-SwiftHashTags_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftHashTags_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,7 +209,6 @@
 		DC91C6D0AA8E4A84C8913FAA45FB2CDA /* SwiftHashTags */ = {
 			isa = PBXGroup;
 			children = (
-				3183A67577259874CAAE366007B1E538 /* ReplaceMe.swift */,
 				3E2A3C94C08C6EE992258DC10BDC8F05 /* SwiftHashTags.swift */,
 				3759DB9D6E8FD7F936A4B8C73F8D68F0 /* SwiftHashTagsExtensions.swift */,
 				C01F4A99A60E64753A3D24282753D0D0 /* SwiftHasthTagsView.swift */,
@@ -352,7 +349,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694653D973D8CFD715A2738AF312D766 /* ReplaceMe.swift in Sources */,
 				EBCE1BE17174E824465CA4C95835171C /* SwiftHashTags-dummy.m in Sources */,
 				AB991EE90A75294BB875C08CF07C0AE0 /* SwiftHashTags.swift in Sources */,
 				74DAF53016B553F216DA831F65D12B2E /* SwiftHashTagsExtensions.swift in Sources */,
