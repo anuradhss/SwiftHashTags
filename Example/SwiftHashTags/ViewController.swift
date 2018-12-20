@@ -61,9 +61,7 @@ extension ViewController {
        
         let swifthashtags = SwiftHashTagsView()
         swifthashtags.frame = CGRect(x: 10, y: 20, width: UIScreen.main.bounds.width - 20, height: UIScreen.main.bounds.height - 20)
-        swifthashtags.hashtaglist = hashtags
-        swifthashtags.showverticalScoller = true
-        swifthashtags.setHashTags()
+        swifthashtags.setHashTags(with: hashtags)
         view.addSubview(swifthashtags)
         swifthashtags.swifthashtagDelegate = self
     }

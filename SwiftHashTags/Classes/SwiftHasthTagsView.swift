@@ -15,7 +15,6 @@ public protocol SwifthashtagDelegate {
 
 open class SwiftHashTagsView: UIView {
     
-    public var hashtaglist: [SwiftHashTags] = []
     public var swifthashtagDelegate: SwifthashtagDelegate?
     public var showverticalScoller: Bool = false
     
@@ -52,7 +51,7 @@ extension SwiftHashTagsView {
 private var tagButtons: [UIButton] = [UIButton]()
 private var tagbuttonIndex: [Int] = [Int]()
 extension SwiftHashTagsView {
-    public func setHashTags() {
+    public func setHashTags(with hashtaglist: [SwiftHashTags]) {
         for hashtag in hashtaglist {
             let buttonTitle = "#"+hashtag.title
             tagButtons.append(creteButton(with: buttonTitle, buttontag: hashtag.id))
