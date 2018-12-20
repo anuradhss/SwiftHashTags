@@ -10,6 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+```ruby
+iOS 9.0 or later
+```
 
 ## Installation
 
@@ -41,11 +44,11 @@ swifthashtags.swifthashtagDelegate = self
 ### SwiftHashTags Delegate methods
 ```ruby
 func selectedHashTag(title: String, id: Int) {
-  // do your stufffs here
+  // do your stuffs here
 }
 
 func unselectedHashTag(title: String, id: Int) {
-  // do your stufffs here
+  // do your stuffs here
 }
 ```
 
