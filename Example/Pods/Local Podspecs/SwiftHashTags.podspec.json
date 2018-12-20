@@ -1,22 +1,23 @@
 {
   "name": "SwiftHashTags",
   "version": "0.1.0",
-  "summary": "A short description of SwiftHashTags.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hcasc/SwiftHashTags",
+  "summary": "Easy HashTags in Swift",
+  "swift_version": "4.2",
+  "description": "Use directly to implement HashTags with Swift",
+  "homepage": "https://github.com/anuradhss/SwiftHashTags",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "hcasc": "anuradhtuck@gmail.com"
+    "Anuradh Caldera": "anuradhtuck@gmail.com"
   },
   "source": {
-    "git": "https://github.com/hcasc/SwiftHashTags.git",
+    "git": "https://github.com/anuradhss/SwiftHashTags.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "SwiftHashTags/Classes/**/*"
 }

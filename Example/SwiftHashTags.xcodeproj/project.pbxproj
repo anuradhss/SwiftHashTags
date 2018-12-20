@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* SwiftHashTags_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHashTags_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		915F4853471B2BD7848A6162 /* SwiftHashTags.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftHashTags.podspec; path = ../SwiftHashTags.podspec; sourceTree = "<group>"; };
+		915F4853471B2BD7848A6162 /* SwiftHashTags.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftHashTags.podspec; path = ../SwiftHashTags.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C5265CB39CC6F01354D2361A /* Pods-SwiftHashTags_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHashTags_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftHashTags_Example/Pods-SwiftHashTags_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D691C1F577FA5A7EC6FB4802 /* Pods-SwiftHashTags_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHashTags_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftHashTags_Tests/Pods-SwiftHashTags_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DB38180E390A3C6C5FF5691A /* Pods-SwiftHashTags_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftHashTags_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftHashTags_Example/Pods-SwiftHashTags_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -412,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -460,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
