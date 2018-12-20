@@ -52,7 +52,7 @@ extension SwiftHashTagsView {
 private var tagButtons: [UIButton] = [UIButton]()
 private var tagbuttonIndex: [Int] = [Int]()
 extension SwiftHashTagsView {
-    public func setButtons() {
+    public func setHashTags() {
         for hashtag in hashtaglist {
             let buttonTitle = "#"+hashtag.title
             tagButtons.append(creteButton(with: buttonTitle, buttontag: hashtag.id))

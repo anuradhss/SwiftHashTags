@@ -17,12 +17,46 @@ SwiftHashTags is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SwiftHashTags'
+pod 'SwiftHashTags','~>0.1.1'
 ```
 
+## How to use
+
+### Create SwiftHashTag View and Add Tags.
+```ruby
+//MARK: Adding hashtags to SwiftHashTags
+var hashtags: [SwiftHashTags] = []
+let hashtag1 = SwiftHashTags(title: "hashtagone", id: 99) // you can add any amount of Tags
+hashtags.append(hashtag1)
+
+//MARK: Create SwiftHashTag View
+let swifthashtags = SwiftHashTagsView()
+swifthashtags.frame = CGRect(x: 10, y: 20, width: UIScreen.main.bounds.width - 20, height: UIScreen.main.bounds.height - 20) // you can give any size
+swifthashtags.hashtaglist = hashtags // set your hashtags
+swifthashtags.setHashTags()
+view.addSubview(swifthashtags)
+swifthashtags.swifthashtagDelegate = self
+```
+
+### SwiftHashTags Delegate methods
+```ruby
+func selectedHashTag(title: String, id: Int) {
+  // do your stufffs here
+}
+
+func unselectedHashTag(title: String, id: Int) {
+  // do your stufffs here
+}
+```
+
+## Features
+#### 1.Hide or show Verticle Scroll Indicator
+```ruby
+swifthashtags.showverticalScoller = true
+```
 ## Author
 
-hcasc, anuradhtuck@gmail.com
+[Anuradh caldera](https://www.linkedin.com/in/anuradhcaldera/), anuradhtuck@gmail.com
 
 ## License
 
