@@ -69,7 +69,7 @@ swifthashtags.showverticalScoller = true
 ```
 ## Author
 
-[Anuradh caldera](https://www.linkedin.com/in/anuradhcaldera/), anuradhtuck@gmail.com
+[Anuradh caldera](https://www.linkedin.com/in/anuradhcaldera/), anuradhtuck@gmail.com, subashanacis@gmail.com
 
 ## License
 
